@@ -7,6 +7,10 @@
     
 }
 
+.color {
+    background-color: crimson;
+}
+
 .griglia {
     display: flex;
     flex-wrap: wrap;

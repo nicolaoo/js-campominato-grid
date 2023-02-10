@@ -19,12 +19,14 @@ btnElement.addEventListener('click', function ( ) {
     }
 
     let celleEl = document.querySelectorAll('.cella')
+    
 
     for (let i = 0; i < celleEl.length; i++) {
         const cell = celleEl[i]
-
+        
         cell.addEventListener('click', function () {
-            console.log(i + 1)
+            console.log(cell)
+            cell.classList.add('color')
         })
 
     }
